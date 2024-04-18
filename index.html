@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisão</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Divisão</h1>
+        <p>Por favor, insira dois números no formulário abaixo,<b>para realizar a divisão.</b><p>
+        <form id="Form">
+            <input type="number" id="Campo_A" required placeholder="Digite o número divisor"/>
+            <input type="number" id="Campo_B" required placeholder="Digite o número dividendo"/>
+            <p class="Mensagem_Erro">Erro, o dividendo tem que ser maior que o divisor! Por favor, ensira um número maior.</p>
+            <button id="Calcular" type="submit">Calcular</button>
+        </form>
+        <p class="Mensagem_Sucesso"></p>
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>
